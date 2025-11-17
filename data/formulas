@@ -1,0 +1,49 @@
+# Revenue
+Revenue (Next Year) = Revenue (This Year) × (1 + Growth Rate)
+
+# COGS
+COGS = Revenue × COGS %
+
+# Operating Expenses
+Operating Expenses = Revenue × Operating Expense %
+
+# EBIT
+EBIT = Revenue – COGS – Operating Expenses
+
+# Taxes
+Tax = EBIT × Tax Rate
+
+# FCFF (Free Cash Flow to the Firm)
+FCFF = EBIT × (1 – Tax Rate)
+       + Depreciation
+       – CapEx
+       – Change in Working Capital
+
+# Discount Factor
+Discount Factor = 1 / (1 + WACC)^Year_Number
+
+# Present Value of FCFF
+PV of FCFF = FCFF × Discount Factor
+
+# Terminal Value
+Terminal Value = Last Year FCFF × (1 + Terminal Growth Rate) / (WACC – Terminal Growth Rate)
+
+# PV of Terminal Value
+PV of Terminal Value = Terminal Value × Discount Factor (Final Year)
+
+# Enterprise Value
+Enterprise Value = (Sum of PV of FCFF) + PV of Terminal Value
+
+# Equity Value
+Equity Value = Enterprise Value – Net Debt
+
+# Intrinsic Share Price
+Share Price = Equity Value ÷ Shares Outstanding
+
+# EV/EBITDA (Comps)
+Implied Enterprise Value = Median EV/EBITDA × EBITDA
+Implied Share Price = (Implied EV – Net Debt) ÷ Shares Outstanding
+
+# P/E (Comps)
+Implied Equity Value = Median P/E × Net Income
+Implied Share Price = Implied Equity Value ÷ Shares Outstanding
